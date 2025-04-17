@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Draggable Windows</title>
+  <style>
+    .draggable {
+      position: absolute;
+    }
+  </style>
+</head>
+  <body class="bg-blue-500 flex items-center justify-center h-screen">
+    <div id="window1" class="draggable bg-white shadow-lg rounded z-10">
+      <div class="header bg-blue-500 text-white p-2 rounded-t flex justify-between">
+        <span>Welcome</span>
+        <button class="close text-white">&times;</button>
+      </div>
+      <div class="content p-4">
+        <div class="text-center">
+          <div class="text-2xl font-bold mb-2">Welcome to Windows Simulator!</div>
+          <div class="text-lg">Windows Simulator is a simulator game for fun!</div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
